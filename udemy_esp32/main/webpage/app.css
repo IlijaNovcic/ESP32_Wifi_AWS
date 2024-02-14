@@ -1,0 +1,100 @@
+body {
+    background-color: #f1f1f1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 2.5em;
+    color: #1d3557;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #1d3557;
+}
+
+h3 {
+    font-size: 1.6em;
+    color: #1d3557;
+}
+
+h4 {
+    font-size: 1.4em;
+    color: #1d3557;
+}
+
+.gr {
+    color: green;
+}
+
+.rd {
+    color: red;
+}
+
+#ap_ssid,
+#local_time,
+#latest_firmware,
+#latest_firmware_label,
+#temperature_reading,
+#humidity_reading,
+#connected_ap_label,
+#connected_ap,
+#ip_address_label,
+#netmask_label,
+#gateway_label,
+#wifi_connect_ip,
+#wifi_connect_netmask,
+#wifi_connect_gw {
+    display: inline;
+    color: #1d3557;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 2px 5px;
+    transition: background-color 0.3s ease;
+}
+
+#connected_ap,
+#wifi_connect_ip,
+#wifi_connect_netmask,
+#wifi_connect_gw {
+    font-weight: bold;
+}
+
+#disconnect_wifi {
+    display: none;
+}
+
+.buttons {
+    padding: 5px;
+}
+
+input[type="button"] {
+    font-size: 14px;
+    border: none;
+    line-height: 2;
+    padding: 0 10px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: #1d3557;
+    background-image: linear-gradient(to bottom, #1d3557, #457b9d);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #457b9d;
+    transform: scale(1.05);
+}
+
+input[type="button"]:active {
+    background-color: #6a8cb0;
+    transform: scale(0.95);
+    box-shadow: none;
+}
