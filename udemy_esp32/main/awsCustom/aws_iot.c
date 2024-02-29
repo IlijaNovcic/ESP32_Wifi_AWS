@@ -39,11 +39,12 @@
 #include "driver/sdmmc_host.h"
 
 #include "aws_iot.h"
-#include "DHT22.h"
+
+#include "../dht22Custom/DHT22.h"
 #include "nvs.h"
 #include "nvs_flash.h"
 #include "tasks_common.h"
-#include "wifi_app.h"
+#include "wifiCustom/wifi_app.h"
 
 #include "aws_iot_config.h"
 #include "aws_iot_log.h"

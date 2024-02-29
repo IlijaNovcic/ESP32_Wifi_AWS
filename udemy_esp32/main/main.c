@@ -2,14 +2,14 @@
  * Application entry point.
  */
 
+#include <dht22Custom/DHT22.h>
 #include "esp_log.h"
 #include "nvs_flash.h"
 
 #include "aws_iot.h"
-#include "DHT22.h"
 #include "sntp_time_sync.h"
-#include "wifi_app.h"
-#include "wifi_reset_button.h"
+#include "wifiCustom/wifi_app.h"
+#include "wifiCustom/wifi_reset_button.h"
 
 static const char TAG[] = "main";
 

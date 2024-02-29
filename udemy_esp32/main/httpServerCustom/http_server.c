@@ -4,6 +4,7 @@
  *  Created on: 19.05.2023.
  *      Author: Novcic
  */
+#include <dht22Custom/DHT22.h>
 #include "esp_http_server.h"
 #include "esp_log.h"
 #include "esp_ota_ops.h"
@@ -11,11 +12,10 @@
 #include "esp_wifi.h"
 #include "sys/param.h"
 
-#include "DHT22.h"
 #include <sntp_time_sync.h>
 #include "http_server.h"
 #include "tasks_common.h"
-#include "wifi_app.h"
+#include "wifiCustom/wifi_app.h"
 
 
 //Tag used for ESP serial console messages

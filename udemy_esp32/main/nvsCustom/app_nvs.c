@@ -12,7 +12,7 @@
 #include "nvs_flash.h"
 
 #include "app_nvs.h"
-#include "wifi_app.h"
+#include "wifiCustom/wifi_app.h"
 
 // Tag for logging to the monitor
 static const char TAG[] = "nvs";

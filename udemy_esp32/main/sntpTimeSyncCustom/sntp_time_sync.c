@@ -12,7 +12,7 @@
 #include <sntp_time_sync.h>
 #include "tasks_common.h"
 #include "http_server.h"
-#include "wifi_app.h"
+#include "wifiCustom/wifi_app.h"
 
 static const char TAG[] = "sntp_time_sync";
 

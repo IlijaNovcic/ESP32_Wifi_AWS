@@ -26,7 +26,7 @@
 #include "esp_system.h"
 #include "driver/gpio.h"
 
-#include "DHT22.h"
+#include "../dht22Custom/DHT22.h"
 #include "tasks_common.h"
 
 // == global defines =============================================

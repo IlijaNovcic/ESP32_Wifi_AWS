@@ -6,6 +6,7 @@
 
 #ifndef DHT22_H_  
 #define DHT22_H_
+#include <stdbool.h>
 
 #define DHT_OK 							0u
 #define DHT_CHECKSUM_ERROR -1u
@@ -23,8 +24,8 @@ void DHT22_Task_Start(void);
 void 	setDHTgpio(int gpio);
 void 	errorHandler(int response);
 int 	readDHT();
-float 	getHumidity();
-float 	getTemperature();
+float getHumidity();
+float getTemperature();
 int 	getSignalLevel( int usTimeOut, bool state );
 
 #endif
